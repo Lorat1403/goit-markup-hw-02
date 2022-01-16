@@ -1,29 +1,151 @@
+:root {
+    --header-list-color: #212121;
+    --first-btn-color: #ffffff;
+    --second-btn-color: #303030;
+    --first-title-color: #ffffff;
+    --second-title-color: #303030;
+    --first-text-color: #303030;
+    --accent-color: ;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: #E5E5E5;
+}
+
+.header {}
+
 .nav-logo {
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #2196F3;
 }
 
-.section {
+.nav-mail,
+.nav-tel {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-list {}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.header-link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-mail {}
+
+.nav-tel {}
+
+.cap {
     background-color: #2F303A;
 }
 
-.section-title {
+.cap-title {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 44px;
     font-weight: 900;
     text-align: center;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
-.section-btn {
+.cap-btn {
     text-align: center;
-    background-color: 2196F3;
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.cap-btn :hover,
+.cap-btn:focus {
+    color: #188CE8;
+}
+
+.section-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.qualities-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.qualities-text {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: left;
+}
+
+.names {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.profession {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-list a {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
