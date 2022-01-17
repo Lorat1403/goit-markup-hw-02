@@ -10,10 +10,22 @@
 
 .body {
     font-family: "Roboto", sans-serif;
+    color: #212121;
     background-color: #E5E5E5;
 }
 
 .header {}
+
+
+/* cite-nav */
+
+.header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 
 .nav-logo {
     font-family: Raleway;
@@ -35,7 +47,9 @@
     color: #757575;
 }
 
-.header-list {}
+ul {
+    list-style: none;
+}
 
 .header-link:hover,
 .header-link:focus {
@@ -126,6 +140,27 @@
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/* portfolio projects */
+
+.project-list .img-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-list .img-text {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
