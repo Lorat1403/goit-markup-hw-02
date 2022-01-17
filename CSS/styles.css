@@ -175,7 +175,7 @@ ul {
 
 /* portfolio projects */
 
-.filter-link {
+.filter-btn {
     font-family: "Roboto";
     sans-serif;
     font-weight: 500;
@@ -187,8 +187,8 @@ ul {
     background-color: #F5F4FA;
 }
 
-.filter-link :hover,
-.filter-link :focus {
+.filter-btn :hover,
+.filter-btn :focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
