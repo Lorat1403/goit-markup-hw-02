@@ -24,17 +24,18 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--header-list-color);
 }
 
 .nav-logo {
-    font-family: Raleway;
+    font-family: "Raleway";
+    sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--header-list-color);
 }
 
 .nav-logo>span {
@@ -43,7 +44,7 @@
 
 .nav-mail,
 .nav-tel {
-    font-family: Roboto;
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -61,7 +62,7 @@ ul {
 }
 
 .header-link {
-    font-family: Roboto;
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -89,7 +90,14 @@ ul {
 }
 
 .cap-btn {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
     text-align: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
     cursor: pointer;
@@ -101,7 +109,9 @@ ul {
 }
 
 .section-title {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
+    sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -111,8 +121,11 @@ ul {
     color: var(--first-title-color);
 }
 
+
+/* ----qualities---- */
+
 .qualities-title {
-    font-family: Roboto;
+    font-family: inherit;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -122,7 +135,7 @@ ul {
 }
 
 .qualities-text {
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -130,8 +143,17 @@ ul {
     text-align: left;
 }
 
+
+/* --our command --*/
+
+.command {
+    background-color: #F5F4FA;
+}
+
 .names {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
+    sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -141,7 +163,8 @@ ul {
 }
 
 .profession {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height */
@@ -152,8 +175,27 @@ ul {
 
 /* portfolio projects */
 
+.filter-link {
+    font-family: "Roboto";
+    sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+    background-color: #F5F4FA;
+}
+
+.filter-link :hover,
+.filter-link :focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
 .project-list .img-title {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 2.0;
@@ -162,7 +204,8 @@ ul {
 }
 
 .project-list .img-text {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
@@ -175,7 +218,8 @@ ul {
 }
 
 .footer-list a {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -183,7 +227,8 @@ ul {
 }
 
 .address {
-    font-family: Roboto;
+    font-family: "Roboto";
+    sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
