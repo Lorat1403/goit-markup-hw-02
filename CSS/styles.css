@@ -8,6 +8,10 @@
     --accent-color: #188CE8;
 }
 
+button {
+    cursor: pointer;
+}
+
 .body {
     font-family: "Roboto", sans-serif;
     color: #212121;
