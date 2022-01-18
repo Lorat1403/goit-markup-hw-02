@@ -12,14 +12,14 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 .body {
     font-family: "Roboto", sans-serif;
     color: #212121;
     background-color: #E5E5E5;
-}
-
-.header {
-    text-decoration: none;
 }
 
 
@@ -40,6 +40,7 @@ button {
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--header-list-color);
 }
 
@@ -49,12 +50,33 @@ button {
 
 .nav-mail,
 .nav-tel {
-    font-family: inherit;
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #757575;
+}
+
+.nav-mail:hover,
+.nav-mail:focus {
+    font-family: "Roboto"sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.nav-tel :hover,
+.nav-tel :focus {
+    font-family: "Roboto"sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 }
 
 ul {
@@ -72,6 +94,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #212121;
 }
 
@@ -97,7 +120,7 @@ ul {
 }
 
 .cap-btn {
-    font-family: inherit;
+    font-family: "Roboto";
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -130,7 +153,7 @@ ul {
 /* ----qualities---- */
 
 .qualities-title {
-    font-family: inherit;
+    font-family: "Roboto" sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -140,7 +163,7 @@ ul {
 }
 
 .qualities-text {
-    font-family: inherit;
+    font-family: "Roboto" sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -212,6 +235,9 @@ ul {
     color: var(--first-text-color);
 }
 
+
+/* --footer-- */
+
 .footer {
     background-color: #2F303A;
 }
@@ -226,8 +252,10 @@ ul {
 
 .address {
     font-family: "Roboto"sans-serif;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: #FFFFFF;
 }
