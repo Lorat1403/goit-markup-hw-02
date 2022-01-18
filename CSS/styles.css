@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-.body {
+body {
     font-family: "Roboto", sans-serif;
     color: #212121;
     background-color: #E5E5E5;
@@ -62,6 +62,16 @@ a {
 .nav-mail:hover,
 .nav-mail:focus {
     font-family: "Roboto"sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.current {
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -120,7 +130,7 @@ ul {
 }
 
 .cap-btn {
-    font-family: "Roboto";
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
