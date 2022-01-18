@@ -18,7 +18,9 @@ button {
     background-color: #E5E5E5;
 }
 
-.header {}
+.header {
+    text-decoration: none;
+}
 
 
 /* cite-nav */
@@ -32,8 +34,7 @@ button {
 }
 
 .nav-logo {
-    font-family: "Raleway";
-    sans-serif;
+    font-family: "Raleway" sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -74,9 +75,11 @@ ul {
     color: #212121;
 }
 
-.nav-mail {}
 
-.nav-tel {}
+/* .nav-mail {} */
+
+
+/* .nav-tel {} */
 
 .cap {
     background-color: #2F303A;
@@ -113,9 +116,7 @@ ul {
 }
 
 .section-title {
-    font-family: "Roboto";
-    sans-serif;
-    sans-serif;
+    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -155,9 +156,7 @@ ul {
 }
 
 .names {
-    font-family: "Roboto";
-    sans-serif;
-    sans-serif;
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -167,8 +166,7 @@ ul {
 }
 
 .profession {
-    font-family: "Roboto";
-    sans-serif;
+    font-family: "Roboto"sans-serif;
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height */
@@ -180,8 +178,7 @@ ul {
 /* portfolio projects */
 
 .filter-btn {
-    font-family: "Roboto";
-    sans-serif;
+    font-family: "Roboto"sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -198,8 +195,7 @@ ul {
 }
 
 .project-list .img-title {
-    font-family: "Roboto";
-    sans-serif;
+    font-family: "Roboto"sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 2.0;
@@ -208,8 +204,7 @@ ul {
 }
 
 .project-list .img-text {
-    font-family: "Roboto";
-    sans-serif;
+    font-family: "Roboto"sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
@@ -222,8 +217,7 @@ ul {
 }
 
 .footer-list a {
-    font-family: "Roboto";
-    sans-serif;
+    font-family: "Roboto"sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -231,8 +225,7 @@ ul {
 }
 
 .address {
-    font-family: "Roboto";
-    sans-serif;
+    font-family: "Roboto"sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
