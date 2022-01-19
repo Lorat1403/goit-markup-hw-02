@@ -216,6 +216,10 @@ ul {
     background-color: #2F303A;
 }
 
+.footer .nav-logo {
+    color: #FFFFFF;
+}
+
 .footer-list a {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
