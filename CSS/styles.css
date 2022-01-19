@@ -12,10 +12,6 @@ button {
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
@@ -33,6 +29,10 @@ body {
     color: var(--header-list-color);
 }
 
+.header-item a {
+    text-decoration: none;
+}
+
 .nav-logo {
     font-family: "Raleway" sans-serif;
     font-weight: bold;
@@ -48,8 +48,8 @@ body {
     color: #2196F3;
 }
 
-.nav-mail,
-.nav-tel {
+.header-mail,
+.header-tel {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -57,8 +57,10 @@ body {
     color: #757575;
 }
 
-.nav-mail:hover,
-.nav-mail:focus {
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -69,14 +71,6 @@ body {
     font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-}
-
-.nav-tel:hover,
-.nav-tel:focus {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -100,7 +94,6 @@ ul {
 }
 
 .cap-title {
-    font-family: "Roboto", sans-serif;
     font-size: 44px;
     font-weight: 900;
     text-align: center;
@@ -127,7 +120,6 @@ ul {
 }
 
 .section-title {
-    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -141,7 +133,6 @@ ul {
 /* ----qualities---- */
 
 .qualities-title {
-    font-family: "Roboto" sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -151,7 +142,6 @@ ul {
 }
 
 .qualities-text {
-    font-family: "Roboto" sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -167,7 +157,6 @@ ul {
 }
 
 .names {
-    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -177,7 +166,6 @@ ul {
 }
 
 .profession {
-    font-family: "Roboto"sans-serif;
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height */
@@ -208,7 +196,6 @@ ul {
 }
 
 .project-list .img-title {
-    font-family: "Roboto"sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 2.0;
@@ -217,7 +204,6 @@ ul {
 }
 
 .project-list .img-text {
-    font-family: "Roboto"sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
@@ -238,14 +224,27 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-list a:hover,
+.footer-list a:focus {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .address {
-    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.address:hover,
+.address:focus {
+    color: #2196F3;
 }
