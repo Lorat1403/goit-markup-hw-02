@@ -34,7 +34,7 @@ body {
 }
 
 .nav-logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -67,7 +67,7 @@ body {
 }
 
 .current {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -217,7 +217,7 @@ ul {
 }
 
 .footer-list a {
-    font-family: "Roboto"sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
