@@ -21,7 +21,7 @@ body {
 
 /* cite-nav */
 
-.header-list {
+.header-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -49,11 +49,12 @@ body {
 
 .header-mail,
 .header-tel {
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--first-text-color);
 }
 
 .header-mail:hover,
@@ -103,6 +104,7 @@ ul {
 }
 
 .cap-btn {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
@@ -176,6 +178,7 @@ ul {
 /* portfolio projects */
 
 .filter-btn {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
